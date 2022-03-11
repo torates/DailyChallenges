@@ -4,6 +4,7 @@ module {
         energy : Nat;
     };
 
+    
     public func animal_sleep(someanimal : Animal) : Animal {
         var someAnimalVar = someanimal;
         someAnimalVar := {
